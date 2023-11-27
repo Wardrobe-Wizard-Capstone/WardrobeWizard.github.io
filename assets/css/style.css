@@ -53,7 +53,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #ff7f5d;
-  border-top-color: white;
+  border-top-color: purple;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -658,6 +658,9 @@ section {
 /*--------------------------------------------------------------
 # Our Values
 --------------------------------------------------------------*/
+.our-values {
+  background: #CBC3E3;
+}
 .our-values .card {
   border: 0;
   padding: 160px 20px 20px 20px;
@@ -745,6 +748,13 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+  background: #CBC3E3;
+}
+h2 {
+  color: white;
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -788,6 +798,7 @@ section {
 }
 
 .services .description {
+  
   font-size: 14px;
   margin-left: 40px;
   line-height: 24px;
@@ -1162,6 +1173,9 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing {
+  background: #CBC3E3;
+}
 .pricing .box {
   padding: 20px;
   background: #fff;
@@ -1272,6 +1286,9 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+.faq {
+  background: #3b0e41;
+}
 .faq .faq-list {
   padding: 0 100px;
 }
