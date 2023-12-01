@@ -1,0 +1,19 @@
+/* your-new-styles.css */
+
+/* Container and Flexbox */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Margin and Padding */
+.container input {
+    margin-bottom: 10px;
+}
+
+.container button {
+    margin-top: 10px;
+}
