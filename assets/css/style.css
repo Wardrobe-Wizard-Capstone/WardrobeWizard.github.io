@@ -1372,9 +1372,12 @@ h2 {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.contact{
+  background-color: lightcoral;
+}
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: lightcoral;
 }
 
 .contact .info i {
@@ -1383,7 +1386,7 @@ h2 {
   float: left;
   width: 44px;
   height: 44px;
-  background: #fff8f6;
+  background: lightcoral;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1415,12 +1418,12 @@ h2 {
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: pink;
-  color: #fff;
+  color: lightcoral;
 }
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: lightcoral;
 }
 
 .contact .php-email-form .form-group {
@@ -1429,7 +1432,7 @@ h2 {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
+  color: lightcoral;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -1442,7 +1445,7 @@ h2 {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: lightcoral;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1451,7 +1454,7 @@ h2 {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #fff;
+  background: lightcoral;
   text-align: center;
   padding: 15px;
 }
@@ -1464,7 +1467,7 @@ h2 {
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
-  border-top-color: #eee;
+  border-top-color: lightcoral;
   animation: animate-loading 1s linear infinite;
 }
 
@@ -1492,7 +1495,7 @@ h2 {
   background: pink;
   border: 0;
   padding: 10px 24px;
-  color: #fff;
+  color:lightcoral;
   transition: 0.4s;
   border-radius: 4px;
 }
